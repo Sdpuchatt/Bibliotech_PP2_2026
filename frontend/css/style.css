@@ -1,0 +1,28 @@
+/* Colores personalizados para Bibliotech */
+:root {
+    --vault-blue: #009688; /* Color verde azulado de biblioteca moderna */
+    --vault-dark: #121212;
+    --vault-grey: #242424;
+    --vault-accent: #80cbc4;
+}
+
+body {
+    background-color: var(--vault-dark);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    background-color: #242424;
+}
+
+.vault-card {
+    background-color: var(--vault-grey) !important;
+    border: 1px solid #333;
+}
+
+/* Estilo para los iframes de PDF */
+iframe {
+    background-color: #fff;
+    border-radius: 4px;
+}
